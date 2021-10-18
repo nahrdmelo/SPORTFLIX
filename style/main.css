@@ -1,0 +1,187 @@
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elementos base */
+
+body{
+    background-color: var(--preto);
+    font-family: 'Arial';
+    color:white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 45px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*PRINCIAL*/
+
+.jogo-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0,.50),rgba(0,0,0,.50)100%), url('/img/capa.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.jogo-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.premier-league{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.campeonato-brasileiro{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.UEFA{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, 0.61);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 10px;
+}
+
+.jogo-principal .container{
+    width: 70%;
+}
+
+.box-jogos{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-jogos{
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+.carrosel-CBrasileiro{
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+.carrosel-UEFA{
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+/*PAGE END*/
+
+.footer{
+    border-top: 1px solid #AAA;
+    padding: 50px 50px;
+    margin-top: 40px;
+    margin: 20px 10px;
+    
+    width: 100%;
+    height: 100%;
+    columns: 4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-content: space-between;
+    cursor: pointer;
+}
+.footer nav{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    cursor:pointer;
+}
+footer nav p:hover{
+    color: #fff;
+}
+
+
+
+.linguagem{
+    background-color: rgba(39, 38, 38, 0.185);
+    border: 2px solid #AAA;
+    display: -webkit-box;
+    color:white;
+    
+    padding: 15px 30px;
+    margin: 20px;
+    margin-bottom: 30px 20px;
+    margin-left: 70px;
+    font-size: 15px;
+
+    cursor:pointer;
+    transition: .3s ease all;
+    text-decoration-style: dashed;
+}
+
+.linguagem:hover{
+    background-color: white;
+    color: black;
+}
